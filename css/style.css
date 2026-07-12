@@ -180,7 +180,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Footer */
 .site-footer { background: var(--color); color: #fff; padding: 60px 0 0; margin-top: 40px; }
-.footer-inner { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; padding-bottom: 40px; }
+.footer-inner { display: grid; grid-template-columns: 1.2fr 0.8fr 1fr 1fr; gap: 32px; padding-bottom: 40px; }
 .site-footer .logo { color: #fff; margin-bottom: 14px; }
 .footer-brand p { color: #C9D6D2; font-size: 14.5px; max-width: 320px; line-height: 1.6; }
 .footer-links h4, .footer-contact h4 { font-size: 15px; margin-bottom: 16px; font-weight: 600; }
@@ -195,7 +195,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Footer */
 .site-footer { background: var(--color); color: #fff; padding: 60px 0 0; margin-top: 40px; }
-.footer-inner { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; padding-bottom: 40px; }
+.footer-inner { display: grid; grid-template-columns: 1.2fr 0.8fr 1fr 1fr; gap: 32px; padding-bottom: 40px; }
 .site-footer .logo { color: #fff; margin-bottom: 14px; }
 .footer-brand p { color: #C9D6D2; font-size: 14.5px; max-width: 320px; line-height: 1.6; }
 .footer-links h4, .footer-contact h4 { font-size: 15px; margin-bottom: 16px; font-weight: 600; }
@@ -267,3 +267,24 @@ html { scroll-behavior: smooth; }
   .nav a::after { transition: none; }
   .btn { transition: none; }
 }
+
+/* FAQ accordion */
+.faq { padding: 80px 0; background: var(--mint); }
+.faq-list { max-width: 720px; margin: 0 auto; }
+.faq-item { background: #fff; border-radius: 14px; margin-bottom: 14px; overflow: hidden; }
+.faq-question {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 24px; cursor: pointer; font-weight: 600; color: var(--color); font-size: 16px;
+}
+.faq-question i { color: var(--accent); transition: transform .3s ease; }
+.faq-item.open .faq-question i { transform: rotate(45deg); }
+.faq-answer {
+  max-height: 0; overflow: hidden; transition: max-height .35s ease;
+  padding: 0 24px;
+}
+.faq-item.open .faq-answer { max-height: 220px; padding: 0 24px 20px; }
+.faq-answer p { color: #4A544F; font-size: 14.5px; line-height: 1.6; }
+
+/* Review avatar */
+.review-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.review-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }

@@ -55,5 +55,22 @@ const clinicData = {
   formServices: ["General Checkup", "Teeth Whitening", "Fillings & Repairs", "Children's Dentistry", "Cosmetic Dentistry", "Emergency Care"],
   footerDesc: "Family-friendly dental care in the heart of Manchester — modern treatment, gentle hands, and appointments that fit your life.",
   footerTagline: "Book online or call — we're here Mon–Sat.",
-  mapsUrl: "https://maps.google.com/?q=Willow+Family+Dental+Manchester"
+  mapsUrl: "https://maps.google.com/?q=Willow+Family+Dental+Manchester",
+  hours: [
+    { day: "Mon – Fri", time: "8:00 AM – 7:00 PM" },
+    { day: "Saturday", time: "9:00 AM – 2:00 PM" },
+    { day: "Sunday", time: "Closed" }
+  ],
+  address: "142 Deansgate, Manchester, M3 3WA",
+  social: [
+    { icon: "fa-facebook-f", url: "https://facebook.com" },
+    { icon: "fa-instagram", url: "https://instagram.com" },
+    { icon: "fa-google", url: "https://google.com" }
+  ],
+  faqs: [
+    { q: "Do you accept insurance?", a: "Yes, we accept most major dental insurance plans. Contact us with your provider details and we will confirm your coverage before your visit." },
+    { q: "What are your opening hours?", a: "We are open Monday to Friday, 8am to 7pm, and Saturday 9am to 2pm. We are closed on Sundays." },
+    { q: "How do I book an appointment?", a: "You can book directly through the form in our Contact section, or call us on the number listed above. We usually confirm within the hour." },
+    { q: "Can I cancel or reschedule my appointment?", a: "Yes — just give us at least 24 hours notice by phone or email so we can offer the slot to another patient." }
+  ]
 };

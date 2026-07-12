@@ -59,10 +59,15 @@ document.getElementById('doctorsGrid').innerHTML = clinicData.doctors.map(d => `
 
 document.getElementById('reviewsGrid').innerHTML = clinicData.reviews.map(r => `
   <div class="review-card">
+    <div class="review-header">
+      <img class="review-avatar" src="${r.img}" alt="${r.name}">
+      <div>
+        <p class="review-name">${r.name}</p>
+        <p class="review-loc">${r.loc}</p>
+      </div>
+    </div>
     <div class="review-stars">${'<i class="fa-solid fa-star"></i>'.repeat(r.rating)}</div>
     <p class="review-text">"${r.text}"</p>
-    <p class="review-name">${r.name}</p>
-    <p class="review-loc">${r.loc}</p>
   </div>
 `).join('');
 
@@ -106,3 +111,30 @@ const revealObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// FAQ accordion
+document.getElementById('faqList').innerHTML = clinicData.faqs.map((f, i) => `
+  <div class="faq-item" data-index="${i}">
+    <div class="faq-question">
+      <span>${f.q}</span>
+      <i class="fa-solid fa-plus"></i>
+    </div>
+    <div class="faq-answer"><p>${f.a}</p></div>
+  </div>
+`).join('');
+
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.querySelector('.faq-question').addEventListener('click', () => {
+    item.classList.toggle('open');
+  });
+});
+
+document.getElementById('footerAddress').textContent = clinicData.address;
+
+document.getElementById('footerHours').innerHTML = clinicData.hours
+  .map(h => `<div class="footer-hours-row"><span>${h.day}</span><span>${h.time}</span></div>`)
+  .join('');
+
+document.getElementById('footerSocial').innerHTML = clinicData.social
+  .map(s => `<a href="${s.url}" target="_blank"><i class="fa-brands ${s.icon}"></i></a>`)
+  .join('');
