@@ -1,3 +1,8 @@
+document.documentElement.style.setProperty("--color", clinicData.color);
+document.documentElement.style.setProperty("--accent", clinicData.colorAccent);
+document.documentElement.style.setProperty("--mint", clinicData.colorMint);
+document.documentElement.style.setProperty("--cream", clinicData.colorCream);
+
 document.getElementById('logoText').textContent = `${clinicData.name1} ${clinicData.name2}`;
 
 document.getElementById('nav').innerHTML = clinicData.navLinks

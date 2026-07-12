@@ -150,7 +150,12 @@
     </div>
   </section>
 
-  <script src="js/data.js"></script>
+  <script src="js/businesses.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const bizId = params.get("biz") || "willow";
+    const clinicData = businesses[bizId] || businesses["willow"];
+  </script>
   <script src="js/script.js"></script>
 </body>
 </html>
