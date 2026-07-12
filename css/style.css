@@ -244,3 +244,26 @@ html { scroll-behavior: smooth; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .service-card, .doctor-card, .review-card { transition: none; }
 }
+
+.doctor-meta { font-size: 12.5px; color: #7C877F; margin-bottom: 2px; }
+
+/* Nav underline animation */
+.nav a { position: relative; padding-bottom: 4px; }
+.nav a::after {
+  content: "";
+  position: absolute; left: 0; bottom: 0;
+  width: 0; height: 2px;
+  background: var(--accent);
+  transition: width .25s ease;
+}
+.nav a:hover::after { width: 100%; }
+
+/* Button hover polish */
+.btn { position: relative; overflow: hidden; transition: transform .2s ease, box-shadow .2s ease; }
+.btn-primary:hover { box-shadow: 0 8px 20px rgba(29,110,106,0.35); }
+.btn-ghost:hover { background: var(--color); color: #fff; border-color: var(--color); }
+
+@media (prefers-reduced-motion: reduce) {
+  .nav a::after { transition: none; }
+  .btn { transition: none; }
+}

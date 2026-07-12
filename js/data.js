@@ -41,9 +41,9 @@ const clinicData = {
     { icon: "fa-tooth", title: "Emergency Care", desc: "Fast appointments when you need urgent dental attention.", img: "assets/images/check_up.jpg" }
   ],
   doctors: [
-    { img: "assets/images/check_up.jpg", name: "Dr. Daniel Carter", role: "Lead Dentist", rating: "4.9" },
-    { img: "assets/images/check-up2.jpg", name: "Dr. Aisha Bello", role: "Cosmetic Dentistry", rating: "4.8" },
-    { img: "assets/images/check-up3.jpg", name: "Dr. Marco Reyes", role: "Paediatric Dentistry", rating: "5.0" }
+    { img: "assets/images/check_up.jpg", name: "Dr. Daniel Carter", role: "Lead Dentist", rating: "4.9", experience: "15 years", qualifications: "BDS, MFDS RCS" },
+    { img: "assets/images/check-up2.jpg", name: "Dr. Aisha Bello", role: "Cosmetic Dentistry", rating: "4.8", experience: "9 years", qualifications: "BDS, PGCert Aesthetic Dentistry" },
+    { img: "assets/images/check-up3.jpg", name: "Dr. Marco Reyes", role: "Paediatric Dentistry", rating: "5.0", experience: "11 years", qualifications: "BDS, DipPaedDent RCS" }
   ],
   reviews: [
     { name: "Sarah M.", loc: "Salford", rating: 5, text: "The team made my daughter's first checkup so easy — she actually asked when we're going back!" },

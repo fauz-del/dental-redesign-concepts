@@ -50,6 +50,8 @@ document.getElementById('doctorsGrid').innerHTML = clinicData.doctors.map(d => `
     <div class="doctor-info">
       <h3>${d.name}</h3>
       <p>${d.role}</p>
+      <p class="doctor-meta">${d.experience} experience</p>
+      <p class="doctor-meta">${d.qualifications}</p>
       <div class="doctor-rating"><i class="fa-solid fa-star"></i> ${d.rating}</div>
     </div>
   </div>
