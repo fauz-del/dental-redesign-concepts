@@ -285,4 +285,335 @@ const businesses = {
     hours: [{ day: "Mon – Thu", time: "8:00 AM – 5:00 PM" }, { day: "Friday", time: "8:00 AM – 2:00 PM" }, { day: "Sat – Sun", time: "Closed" }],
     social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-instagram", url: "https://instagram.com" }, { icon: "fa-google", url: "https://google.com" }]
   }
+,
+  friscofamily: {
+    name1: "Family Dentistry", name2: "of Frisco",
+    color: "#5C2333", colorAccent: "#C9A227", colorMint: "#F3E9D8", colorCream: "#FFFFFF",
+    phone: "(469) 362-3150", email: "info@familydentistryoffrisco.com", location: "Frisco, TX", availability: "Mon–Fri, Sat by appointment",
+    navLinks: ["Home", "Services", "About", "Doctors", "Contact"],
+    heroEyebrow: "25 Years of Award-Winning Care",
+    heroTitle: "Dentistry for<br><span class='accent'>the Whole Family.</span>",
+    heroDesc: "Voted Best Dentist in Frisco & Plano. Dr. Paresh Patel and his team have delivered comprehensive, compassionate dental care for over 25 years.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Request Appointment", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "25+", stat1Label: "Years of Care", stat2Val: "Top", stat2Label: "Rated by D Magazine", stat3Val: "All", stat3Label: "Ages Welcome",
+    aboutEyebrow: "About the Practice", aboutTitle: "Best Dentist<br>in Frisco, Texas",
+    aboutDesc: "For over 25 years, Dr. Paresh B. Patel and his team have provided comprehensive, gentle dental care for patients of every age, right here in Frisco.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "25+", aboutBadgeLabel: "Years Serving Frisco",
+    aboutPoints: ["Voted Best Cosmetic & Family Dentist", "Same-day treatment available", "Sedation dentistry & advanced technology"],
+    services: [
+      { icon: "fa-tooth", title: "Family & Cosmetic Dentistry", desc: "Comprehensive care for every age.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-teeth", title: "Sedation Dentistry", desc: "Comfortable care for anxious patients.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-tooth", title: "Emergency Dentistry", desc: "Fast care when you need it most.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-tooth", title: "Dental Implants", desc: "Long-lasting, natural-looking replacements.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-wand-magic-sparkles", title: "Laser Dentistry", desc: "Advanced, precise, minimally-invasive care.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "Same Day Treatment", desc: "Available when medically necessary.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Paresh B. Patel", role: "Lead Dentist", rating: "4.9", experience: "25+ years", qualifications: "DDS, MFGDP, RCS, MICOI" }
+    ],
+    reviews: [
+      { name: "Brandy T.", loc: "Frisco", rating: 5, text: "Thank you for your wonderful care! Dr. Patel and his very pleasant staff make every visit comfortable.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Karen L.", loc: "Frisco", rating: 5, text: "Long-time patient. Their proactive approach and financing options make quality care accessible.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Marcus D.", loc: "Frisco", rating: 5, text: "Best dentist in Frisco, hands down. The whole family goes here now.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, we accept all PPO insurances, including Medicare, plus several financing options." },
+      { q: "What are your opening hours?", a: "Monday to Friday, with select Saturday appointments available." },
+      { q: "How do I book an appointment?", a: "Request an appointment online or call our office directly." },
+      { q: "Can I cancel or reschedule?", a: "Yes, just give us as much notice as possible." }
+    ],
+    contactTitle: "Request Your Appointment",
+    contactDesc: "Fill in the form and our team will confirm a time that works for you.",
+    formServices: ["Family & Cosmetic Dentistry", "Sedation Dentistry", "Emergency Dentistry", "Dental Implants", "Laser Dentistry", "Same Day Treatment"],
+    footerDesc: "Award-winning family dentistry in Frisco, TX — trusted for over 25 years.",
+    footerTagline: "The entire family's dentist in Frisco, TX.",
+    mapsUrl: "https://maps.google.com/?q=Family+Dentistry+of+Frisco+TX",
+    address: "Teel Pkwy, Frisco, TX 75033",
+    hours: [{ day: "Mon – Fri", time: "9:00 AM – 5:00 PM" }, { day: "Saturday", time: "By Appointment" }, { day: "Sunday", time: "Closed" }],
+    social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-google", url: "https://google.com" }, { icon: "fa-yelp", url: "https://yelp.com" }]
+  },
+  vsdental: {
+    name1: "VS Dental", name2: "Group",
+    color: "#1C3D5A", colorAccent: "#4C8FBD", colorMint: "#DCEAF4", colorCream: "#FFFFFF",
+    phone: "(214) 396-5950", email: "info@vsdentalgroup.com", location: "Frisco, TX", availability: "Mon–Fri, hours vary",
+    navLinks: ["Home", "Services", "About", "Contact"],
+    heroEyebrow: "Trusted Dentist in Frisco, TX",
+    heroTitle: "Dental Technology,<br><span class='accent'>Safety & Comfort.</span>",
+    heroDesc: "Dr. Vlad Sokransky and the VS Dental Group team use state-of-the-art equipment to make every visit convenient, comfortable, and thorough.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Book Online", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "5.0", stat1Label: "Google Rating", stat2Val: "Modern", stat2Label: "Equipment & Imaging", stat3Val: "Same-Day", stat3Label: "Emergency Care",
+    aboutEyebrow: "About Us", aboutTitle: "A Practice Built<br>on Patient Care",
+    aboutDesc: "A Frisco dental practice with a passion for dentistry and patient care. We use the latest technology and materials for every procedure, from fillings to implants.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "5.0", aboutBadgeLabel: "Google Rating",
+    aboutPoints: ["State-of-the-art dental technology", "Computerized imaging for treatment planning", "Non-metal, top-rated dental materials"],
+    services: [
+      { icon: "fa-tooth", title: "Dental Emergency", desc: "Fast, reliable care when you need it.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-teeth", title: "Dental Hygiene", desc: "Routine cleanings and preventive care.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-tooth", title: "Composite Fillings", desc: "Modern treatment for tooth decay.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-tooth", title: "Dental Implants", desc: "Titanium tooth replacements built to last.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-tooth", title: "Root Canals", desc: "Comfortable, precise root canal therapy.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "Porcelain Crowns", desc: "Natural-looking, durable restorations.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Vlad Sokransky", role: "Lead Dentist", rating: "5.0", experience: "15+ years", qualifications: "DDS" }
+    ],
+    reviews: [
+      { name: "Elena R.", loc: "Frisco", rating: 5, text: "Incredibly modern office and Dr. Sokransky explains everything clearly. Highly recommend.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Tom B.", loc: "Frisco", rating: 5, text: "The imaging technology alone sets this office apart. Very thorough care.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Nadia F.", loc: "Frisco", rating: 5, text: "Clean, professional, and genuinely caring staff. My go-to dentist in Frisco.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, please contact our office to confirm your specific plan." },
+      { q: "What are your opening hours?", a: "Monday to Friday, hours vary — call to confirm." },
+      { q: "How do I book an appointment?", a: "Book online or call our office directly." },
+      { q: "Can I cancel or reschedule?", a: "Yes, please give us as much notice as possible." }
+    ],
+    contactTitle: "Book Your Visit",
+    contactDesc: "Fill in the form below and we'll confirm a time that works for you.",
+    formServices: ["Dental Emergency", "Dental Hygiene", "Composite Fillings", "Dental Implants", "Root Canals", "Porcelain Crowns"],
+    footerDesc: "A Frisco dental practice with a passion for dentistry and patient care.",
+    footerTagline: "We make it convenient for you to stay healthy.",
+    mapsUrl: "https://maps.google.com/?q=3492+Legacy+Dr+600+Frisco+TX+75034",
+    address: "3492 Legacy Dr. #600, Frisco, TX 75034",
+    hours: [{ day: "Mon – Fri", time: "9:00 AM – 5:00 PM" }, { day: "Sat – Sun", time: "Closed" }],
+    social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-yelp", url: "https://yelp.com" }]
+  },
+  rockhill: {
+    name1: "Rock Hill", name2: "Dental Care",
+    color: "#262019", colorAccent: "#E0654B", colorMint: "#F4E3DD", colorCream: "#FFFFFF",
+    phone: "(469) 430-0665", email: "info@rockhilldentalcaretx.com", location: "Frisco, TX", availability: "Tue–Fri, see hours below",
+    navLinks: ["Home", "Services", "Team", "Contact"],
+    heroEyebrow: "Comprehensive Care for Your Overall Wellness",
+    heroTitle: "Personalized Care<br><span class='accent'>for a Healthier Smile.</span>",
+    heroDesc: "You deserve a healthy, beautiful smile — the Rock Hill Dental Care team provides personalized care solutions to help you get the smile you've always wanted.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Schedule With Us", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "4.5", stat1Label: "Patient Rating", stat2Val: "54", stat2Label: "Google Reviews", stat3Val: "Most", stat3Label: "Insurance Accepted",
+    aboutEyebrow: "Meet the Team", aboutTitle: "Patient-Focused<br>Care, Every Visit",
+    aboutDesc: "Led by Dr. Zahra Athar, our team is dedicated to providing patient-focused care and has created a positive atmosphere so you can look forward to visiting our office.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "4.5★", aboutBadgeLabel: "54 Reviews",
+    aboutPoints: ["Personalized care solutions", "New patients always welcome", "Most insurance plans accepted"],
+    services: [
+      { icon: "fa-tooth", title: "Dental Implants", desc: "Renew your smile with lasting implants.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-teeth", title: "Invisalign", desc: "A comfortable, invisible alternative to braces.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-tooth", title: "Preventative Oral Health", desc: "Dental cleanings and checkups.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-tooth", title: "Sealants", desc: "Protect teeth from decay early.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-tooth", title: "Fluoride Treatment", desc: "Strengthen enamel and protect your smile.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "Implant-Supported Dentures", desc: "Secure, natural-feeling dentures.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Zahra Athar", role: "Lead Dentist", rating: "4.5", experience: "10+ years", qualifications: "DDS" }
+    ],
+    reviews: [
+      { name: "Angela M.", loc: "Frisco", rating: 5, text: "The team is dedicated to providing patient-focused care. Always a positive experience.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Derrick S.", loc: "Frisco", rating: 4, text: "Great office, easy scheduling, and Dr. Athar is thorough and kind.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Priya N.", loc: "Frisco", rating: 5, text: "Comfortable atmosphere and very transparent about treatment options.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, most insurance plans are accepted, including Medicare Advantage." },
+      { q: "What are your opening hours?", a: "Tuesday to Friday, 8:30am to 5:30pm. Closed Monday, Saturday, and Sunday." },
+      { q: "How do I book an appointment?", a: "Schedule with us online or call our office directly." },
+      { q: "Can I cancel or reschedule?", a: "Yes, please give us as much notice as possible." }
+    ],
+    contactTitle: "Schedule With Us",
+    contactDesc: "Fill in the form and our team will confirm a time that works for you.",
+    formServices: ["Dental Implants", "Invisalign", "Preventative Oral Health", "Sealants", "Fluoride Treatment", "Implant-Supported Dentures"],
+    footerDesc: "Comprehensive, personalized dental care for your overall wellness in Frisco, TX.",
+    footerTagline: "Care provided by local, independent practices.",
+    mapsUrl: "https://maps.google.com/?q=12275+University+Dr+Ste+250+Frisco+TX+75035",
+    address: "12275 University Dr, Ste 250, Frisco, TX 75035",
+    hours: [{ day: "Tue", time: "8:30 AM – 5:00 PM" }, { day: "Wed – Thu", time: "8:30 AM – 5:30 PM" }, { day: "Fri", time: "8:30 AM – 5:30 PM" }, { day: "Sat – Mon", time: "Closed" }],
+    social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-instagram", url: "https://instagram.com" }]
+  }
+,
+  dentalcarefrisco: {
+    name1: "Dental Care", name2: "of Frisco",
+    color: "#22303F", colorAccent: "#D4A24C", colorMint: "#EDE6D3", colorCream: "#FFFFFF",
+    phone: "(214) 436-5122", email: "info@dentalcareoffrisco.com", location: "Frisco, TX", availability: "Mon–Fri, see hours below",
+    navLinks: ["Home", "Services", "About", "Contact"],
+    heroEyebrow: "A Different Kind of Dentist",
+    heroTitle: "We Do It All,<br><span class='accent'>So You Don't Have To Search.</span>",
+    heroDesc: "Dr. Thomas Grant, DMD, offers a wide range of personalized, compassionate dental treatments — all in one convenient Frisco office.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Request Appointment", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "Best D", stat1Label: "Awarded 2022", stat2Val: "All", stat2Label: "Ages Welcome", stat3Val: "In-Office", stat3Label: "Discount Plan Available",
+    aboutEyebrow: "Meet the Doctor", aboutTitle: "Dr. Thomas Grant,<br>DMD",
+    aboutDesc: "Dr. Grant is happy to be part of your dental care, and enjoys treating the families of Frisco with the latest in dental technology.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "Best D", aboutBadgeLabel: "2022 Award",
+    aboutPoints: ["In-office discount dental plan available", "No annual maximums, no waiting periods", "TMJ & migraine relief consultations"],
+    services: [
+      { icon: "fa-tooth", title: "Crowns & Restorations", desc: "Long-lasting, natural-looking repairs.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-teeth", title: "Invisalign", desc: "A straighter smile without metal braces.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-tooth", title: "Dental Implants", desc: "Replace missing teeth with confidence.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-tooth", title: "TMJ & Sleep Apnea", desc: "Relief for jaw pain, migraines, and sleep issues.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-tooth", title: "Routine Cleanings", desc: "Preventive care to keep your smile healthy.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "New Patient Exams", desc: "A thorough first visit, done right.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Thomas Grant", role: "Lead Dentist", rating: "4.8", experience: "20+ years", qualifications: "DMD" }
+    ],
+    reviews: [
+      { name: "Roan S.", loc: "Frisco", rating: 5, text: "Dr. Grant and his staff are wonderful, kind, and always professional.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Melissa K.", loc: "Frisco", rating: 5, text: "The discount plan made treatment so much more accessible for our family.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Andre P.", loc: "Frisco", rating: 5, text: "Finally found relief for my migraines through their TMJ treatment. Truly grateful.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, and we also offer an in-office discount dental plan for uninsured patients." },
+      { q: "What are your opening hours?", a: "Monday to Friday — call or request an appointment online to confirm times." },
+      { q: "How do I book an appointment?", a: "Request an appointment through our online form or call our office." },
+      { q: "Can I cancel or reschedule?", a: "Yes, just give us as much notice as possible." }
+    ],
+    contactTitle: "Request Your Appointment",
+    contactDesc: "Fill in the form and our team will confirm a time that works for you.",
+    formServices: ["Crowns & Restorations", "Invisalign", "Dental Implants", "TMJ & Sleep Apnea", "Routine Cleanings", "New Patient Exams"],
+    footerDesc: "Personalized, compassionate dentistry for the whole family in Frisco, TX.",
+    footerTagline: "No more searching — we do it all.",
+    mapsUrl: "https://maps.google.com/?q=Dental+Care+of+Frisco+TX",
+    address: "Preston Rd, Frisco, TX 75034",
+    hours: [{ day: "Mon – Thu", time: "8:00 AM – 5:00 PM" }, { day: "Friday", time: "8:00 AM – 2:00 PM" }, { day: "Sat – Sun", time: "Closed" }],
+    social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-google", url: "https://google.com" }]
+  },
+  friscosdentists: {
+    name1: "Frisco's", name2: "Dentists",
+    color: "#3B2E5A", colorAccent: "#4FBDB0", colorMint: "#E3DCF0", colorCream: "#FFFFFF",
+    phone: "(972) 377-7333", email: "info@friscosdentists.com", location: "Frisco, TX", availability: "Mon–Wed, Thu mornings",
+    navLinks: ["Home", "Services", "About", "Contact"],
+    heroEyebrow: "Caring Family Dentists in Frisco, Texas",
+    heroTitle: "Frisco's<br><span class='accent'>Friendliest Dentists.</span>",
+    heroDesc: "We're here to take your worries away while helping you achieve a radiant, healthy smile — for every member of the family.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Request Appointment", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "25+", stat1Label: "Years of Experience", stat2Val: "All", stat2Label: "Ages Welcome", stat3Val: "Baylor", stat3Label: "University Graduate",
+    aboutEyebrow: "Meet the Doctor", aboutTitle: "Dr. Robert Neal,<br>Your Trusted Dentist",
+    aboutDesc: "A proud Texas native, Dr. Robert Neal strives to serve his family of dental patients with warmth and compassion, and has done so for over 25 years.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "25+", aboutBadgeLabel: "Years of Care",
+    aboutPoints: ["Preventative and restorative dentistry", "Compassionate care for the whole family", "Serving Collin and Denton counties"],
+    services: [
+      { icon: "fa-tooth", title: "Restorative Dentistry", desc: "Fillings, crowns, and root canals done right.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-teeth", title: "Dental Emergencies", desc: "Fast, caring attention when you need it.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-tooth", title: "Preventative Care", desc: "Regular exams and cleanings for lifelong health.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-tooth", title: "Cosmetic Dentistry", desc: "Veneers and whitening for a confident smile.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-tooth", title: "Pediatric Dentistry", desc: "Gentle first visits for your youngest patients.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "Dental Implants", desc: "Reliable, natural-looking tooth replacement.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Robert Neal", role: "Lead Dentist", rating: "4.9", experience: "25+ years", qualifications: "DDS, Baylor University" }
+    ],
+    reviews: [
+      { name: "Jarah H.", loc: "Frisco", rating: 5, text: "I highly recommend Dr. Neal to anyone who is looking. He's honest, thorough, and doesn't push unnecessary work.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Colton B.", loc: "Frisco", rating: 5, text: "25 years of experience really shows. Straightforward, kind, and skilled.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Renee A.", loc: "Frisco", rating: 5, text: "My kids actually enjoy their visits here. Wonderful with children.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, contact our office to confirm your specific plan." },
+      { q: "What are your opening hours?", a: "Monday to Wednesday 8am–5pm, Thursday 8am–12pm, after hours by appointment." },
+      { q: "How do I book an appointment?", a: "Call our office or request an appointment through our online form." },
+      { q: "Can I cancel or reschedule?", a: "Yes, please give us as much notice as possible." }
+    ],
+    contactTitle: "Contact Frisco's Dentists Today",
+    contactDesc: "A member of our team will be in touch shortly to confirm your details.",
+    formServices: ["Restorative Dentistry", "Dental Emergencies", "Preventative Care", "Cosmetic Dentistry", "Pediatric Dentistry", "Dental Implants"],
+    footerDesc: "Caring family dentistry in Frisco, Texas — trusted for over 25 years.",
+    footerTagline: "We are here for you, Frisco.",
+    mapsUrl: "https://maps.google.com/?q=6352+Stonebrook+Pkwy+Suite+100+Frisco+TX+75034",
+    address: "6352 Stonebrook Pkwy, Suite 100, Frisco, TX 75034",
+    hours: [{ day: "Mon – Wed", time: "8:00 AM – 5:00 PM" }, { day: "Thursday", time: "8:00 AM – 12:00 PM" }, { day: "Fri – Sun", time: "By Appointment Only" }],
+    social: [{ icon: "fa-yelp", url: "https://yelp.com" }, { icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-google", url: "https://google.com" }]
+  },
+  waterfrontfamily: {
+    name1: "Waterfront", name2: "Family Dentistry",
+    color: "#0E3A5C", colorAccent: "#F2994A", colorMint: "#DCEFFA", colorCream: "#FFFFFF",
+    phone: "+1 972-987-4343", email: "office@waterfrontsmiles.com", location: "Frisco, TX", availability: "Mon–Fri, hours vary",
+    navLinks: ["Home", "Services", "About", "Contact"],
+    heroEyebrow: "Caring for Every Smile, Every Family",
+    heroTitle: "Your Family's Smile,<br><span class='accent'>Our Life's Work.</span>",
+    heroDesc: "Providing gentle, modern, and personalized dental care in Frisco, TX — where technology meets compassion to create brighter, healthier smiles for all ages.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Book Your Visit", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "93%", stat1Label: "Patient Satisfaction", stat2Val: "10+", stat2Label: "Years of Expert Experience", stat3Val: "1,000+", stat3Label: "Family Smiles Cared For",
+    aboutEyebrow: "Meet the Doctor", aboutTitle: "Dr. Lavanya<br>Rudrapatna",
+    aboutDesc: "Led by Dr. Lavi, our team blends advanced technology with a caring touch to provide quality dental care for every member of the family.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "93%", aboutBadgeLabel: "Patient Satisfaction",
+    aboutPoints: ["Compassionate, comfort-focused visits", "Advanced technology paired with genuine care", "Flexible, affordable payment plans"],
+    services: [
+      { icon: "fa-tooth", title: "Preventive Dentistry", desc: "Keeping your smile strong and healthy.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-child-reaching", title: "Pediatric Dentistry", desc: "Gentle, fun, stress-free visits for kids.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-wand-magic-sparkles", title: "Cosmetic Dentistry", desc: "Whitening and veneers for lasting confidence.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-teeth", title: "Orthodontics & Invisalign", desc: "Straightening teeth discreetly and comfortably.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-tooth", title: "Implants & Restorations", desc: "Durable, natural-looking tooth replacement.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "Root Canals & Extractions", desc: "Relieving pain safely with precision care.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Lavanya Rudrapatna", role: "Lead Dentist", rating: "4.9", experience: "10+ years", qualifications: "DDS" }
+    ],
+    reviews: [
+      { name: "Felix E.", loc: "Frisco", rating: 5, text: "Dr. Lavi and her team are amazing! They made me feel so comfortable, and my teeth have never looked better.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Tanya W.", loc: "Frisco", rating: 5, text: "The most comforting dental office I've been to. They genuinely listen.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Rico D.", loc: "Frisco", rating: 5, text: "Great with my kids and always transparent about costs and options.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, contact us to confirm your specific plan and coverage." },
+      { q: "What are your opening hours?", a: "Monday to Friday — call or book online to confirm available times." },
+      { q: "How do I book an appointment?", a: "Book your visit online or call our office directly." },
+      { q: "Can I cancel or reschedule?", a: "Yes, please give us as much notice as possible." }
+    ],
+    contactTitle: "Book Your Appointment",
+    contactDesc: "Experience gentle, personalized dental care in Frisco, TX. Your perfect smile awaits.",
+    formServices: ["Preventive Dentistry", "Pediatric Dentistry", "Cosmetic Dentistry", "Orthodontics & Invisalign", "Implants & Restorations", "Root Canals & Extractions"],
+    footerDesc: "Gentle, modern, and personalized dental care in Frisco, TX.",
+    footerTagline: "Your family's smile, our life's work.",
+    mapsUrl: "https://maps.google.com/?q=255+W+Lebanon+St+300+Frisco+TX",
+    address: "255 W Lebanon St #300, Frisco, TX",
+    hours: [{ day: "Mon – Fri", time: "9:00 AM – 5:00 PM" }, { day: "Sat – Sun", time: "Closed" }],
+    social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-x-twitter", url: "https://x.com" }, { icon: "fa-instagram", url: "https://instagram.com" }]
+  },
+  friscosmiles: {
+    name1: "Frisco Smiles", name2: "Dentistry",
+    color: "#16423C", colorAccent: "#6FCF97", colorMint: "#DFF3E8", colorCream: "#FFFFFF",
+    phone: "(469) 212-9064", email: "info@friscosmilesdentistry.com", location: "Frisco, TX", availability: "Mon–Fri, see hours below",
+    navLinks: ["Home", "Services", "About", "Contact"],
+    heroEyebrow: "Exceptional Dentistry for Confident Smiles",
+    heroTitle: "Welcome to<br><span class='accent'>Frisco Smiles Dentistry.</span>",
+    heroDesc: "A trusted neighborhood practice serving Frisco since 2016. Our office features state-of-the-art technology and a warm, personal relationship with every patient.",
+    heroImg: "assets/images/smiling_child.jpg", heroCtaText: "Request Appointment", heroSecondary: "Our Services",
+    heroCardLabel: "Next Available Slot", heroCardDay: "This Week", heroCardTime: "By Appointment",
+    stat1Val: "Best D", stat1Label: "2019, 2020, 2021", stat2Val: "Since", stat2Label: "2016", stat3Val: "No Insurance?", stat3Label: "No Problem",
+    aboutEyebrow: "Meet the Doctor", aboutTitle: "Dr. Thanh K. Hong,<br>DMD",
+    aboutDesc: "Dr. Hong brings years of experience and a passion for helping patients of all ages. Whether it's a routine visit or a more complex procedure, quality is guaranteed.",
+    aboutImg: "assets/images/clinic_staff.jpg", aboutBadgeVal: "Best D", aboutBadgeLabel: "3 Years Running",
+    aboutPoints: ["Complete dental care in one place", "Membership plans for uninsured patients", "Flexible scheduling to fit your life"],
+    services: [
+      { icon: "fa-wand-magic-sparkles", title: "Cosmetic Dentistry", desc: "Whitening and veneers for a confident smile.", img: "assets/images/smiling_patient.jpg" },
+      { icon: "fa-tooth", title: "Dental Implants", desc: "Stable, natural-looking tooth replacement.", img: "assets/images/smiling_patient2.jpg" },
+      { icon: "fa-teeth", title: "Preventive Care", desc: "Regular checkups to protect your smile.", img: "assets/images/smiling_patient3.jpg" },
+      { icon: "fa-child-reaching", title: "Family Dentistry", desc: "Personal, friendly care for all ages.", img: "assets/images/smiling_patient4.jpg" },
+      { icon: "fa-tooth", title: "Emergency Care", desc: "Fast attention when you need it most.", img: "assets/images/checkup4.jpg" },
+      { icon: "fa-tooth", title: "Membership Plans", desc: "Accessible care, even without insurance.", img: "assets/images/check_up.jpg" }
+    ],
+    doctors: [
+      { img: "assets/images/check_up.jpg", name: "Dr. Thanh K. Hong", role: "Lead Dentist", rating: "4.8", experience: "15+ years", qualifications: "DMD" }
+    ],
+    reviews: [
+      { name: "Bianca R.", loc: "Frisco", rating: 5, text: "Been coming here since they opened. Dr. Hong and the team always make me feel like family.", img: "assets/images/smiling_patient.jpg" },
+      { name: "Todd M.", loc: "Frisco", rating: 5, text: "Best D winner for a reason — professional, warm, and thorough every time.", img: "assets/images/smiling_patient2.jpg" },
+      { name: "Iris V.", loc: "Frisco", rating: 5, text: "The membership plan was a lifesaver while I was between insurance plans.", img: "assets/images/smiling_patient3.jpg" }
+    ],
+    faqs: [
+      { q: "Do you accept insurance?", a: "Yes, and we also offer membership plans for patients without insurance." },
+      { q: "What are your opening hours?", a: "Monday to Friday, 8am to 5pm — Saturday closed." },
+      { q: "How do I book an appointment?", a: "Request an appointment online or give us a call." },
+      { q: "Can I cancel or reschedule?", a: "Yes, please give us as much notice as possible." }
+    ],
+    contactTitle: "Reach Out Today",
+    contactDesc: "Fill in the form and our team will get back to you shortly.",
+    formServices: ["Cosmetic Dentistry", "Dental Implants", "Preventive Care", "Family Dentistry", "Emergency Care", "Membership Plans"],
+    footerDesc: "A trusted neighborhood dental practice serving Frisco since 2016.",
+    footerTagline: "Healthy smiles, lasting confidence.",
+    mapsUrl: "https://maps.google.com/?q=2955+Eldorado+Pkwy+Suite+110+Frisco+TX+75033",
+    address: "2955 Eldorado Pkwy, Suite 110, Frisco, TX 75033",
+    hours: [{ day: "Mon – Fri", time: "8:00 AM – 5:00 PM" }, { day: "Sat – Sun", time: "Closed" }],
+    social: [{ icon: "fa-facebook-f", url: "https://facebook.com" }, { icon: "fa-google", url: "https://google.com" }]
+  }
 };

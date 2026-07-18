@@ -143,3 +143,6 @@ document.getElementById('footerHours').innerHTML = clinicData.hours
 document.getElementById('footerSocial').innerHTML = clinicData.social
   .map(s => `<a href="${s.url}" target="_blank"><i class="fa-brands ${s.icon}"></i></a>`)
   .join('');
+
+document.getElementById('stickyCall').href = `tel:${clinicData.phone.replace(/[^0-9+]/g, '')}`;
+document.getElementById('stickyMaps').href = clinicData.mapsUrl;

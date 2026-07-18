@@ -300,3 +300,23 @@ html { scroll-behavior: smooth; }
   transition: background .2s ease, transform .2s ease, border-color .2s ease;
 }
 .footer-social a:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-2px); }
+
+/* Sticky mobile CTA bar */
+.sticky-cta {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 40;
+  background: #fff;
+  border-top: 1px solid var(--line, #EAE6DE);
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.08);
+}
+.sticky-btn {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
+  padding: 10px 4px 12px; font-size: 11px; font-weight: 600; color: var(--color);
+}
+.sticky-btn i { font-size: 16px; }
+.sticky-btn-primary { background: var(--accent); color: #fff; }
+
+@media (max-width: 860px) {
+  .sticky-cta { display: flex; }
+  body { padding-bottom: 64px; }
+}
